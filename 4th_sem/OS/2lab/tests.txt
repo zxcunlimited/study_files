@@ -1,0 +1,16 @@
+1 test: simple server work
+server_start.bat
+client_start.sh
+
+2 test: 2client work
+server_start.bat
+parallel_start.sh
+
+3 test: client2 test
+перед этим что то должно быть в msg.txt
+server_start.bat
+get_start.sh
+
+4 test: stop test
+server_start.bat
+stop_start.sh
